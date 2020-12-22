@@ -1,0 +1,192 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+*{box-sizing: border-box;}
+
+.conteneur{
+
+}
+
+header{
+
+}
+
+header .coverall{
+  background-color: #4d636f;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header .coverall  .logo{
+background-color: #1e708b;
+width: 15%;
+
+}
+
+header .coverall .logo a{
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: cursive;
+  color: #dadada;
+}
+
+
+
+header .barre{
+ //padding: 5px;
+ background-color: #4d636f;
+}
+
+header .barre img{
+
+}
+
+header .barre img:hover{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.form_inscription{
+  width: 70%;
+  height: auto;
+  margin: auto;
+padding-top: 50px;
+}
+
+
+.form_inscription .formulaire{
+   width: 70%;
+   margin: auto;
+   height: auto;
+   background-color: #fff;
+   font-family: cursive;
+   text-transform: capitalize;
+   color:#1e708b;
+   box-shadow: 1px 1px 5px #dadada;
+
+}
+
+.form_inscription .formulaire form .block{
+  display: flex;
+justify-content: space-around;
+  flex-direction: row;
+}
+
+
+.form_inscription .formulaire form .block .form1{
+
+  width: 40%;
+}
+
+.form_inscription .formulaire form .block .form2{
+
+  width: 40%;
+}
+
+
+.form_inscription .formulaire p{
+  width: 80%;
+  margin: auto;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #54b2d6;
+}
+
+
+.form_inscription .formulaire h1{
+  color:#4d636f;
+text-align: center;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family:cursive;
+  font-weight:  normal;
+
+}
+
+
+
+.form_inscription .formulaire form .block > div >div{
+
+width: 85%;
+margin: auto;
+margin-top: 20px;
+
+}
+
+.form_inscription .formulaire form > div >div input{
+  height: 30px;
+  width: 100%;
+  color: #4d636f;
+  font-family: cursive;
+  outline: none;
+
+}
+
+.form_inscription .formulaire form > div >div input:focus{
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.form_inscription .formulaire form > div >div select{
+  height: 30px;
+  width: 100%;
+  color: #4d636f;
+  font-family: cursive;
+  outline: none;
+}
+
+.form_inscription .formulaire form .valider{
+padding-left: 9%;
+}
+
+.form_inscription .formulaire form .valider input{
+   margin-top: 20px;
+   margin-bottom: 5px;
+    box-shadow: 0px 0px 5px #4d636f;
+    outline: none;
+    border: none;
+    width: 20%;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-family: verdana;
+    background-color: #4d636f;
+}
+
+.form_inscription > .error a{
+  text-decoration: none;
+  color: green;
+  font-family: verdana;
+
+}
+
+.form_inscription > .error a:hover{
+  color: rgb(207, 70, 27);
+}
+
+.prof  #design{
+
+margin-top: 20px;
+ background-color: #DFDFDF;
+
+}
+
+.prof .input{
+  width: 85%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  color:  #C9C9C9;
+}
+
+.prof .input .professeur{
+  width: 80%;
+  border-radius: 8px;
+  font-size: 15px;
+  text-align: center;
+}

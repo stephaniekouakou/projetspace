@@ -1,0 +1,79 @@
+
+.conteneur{
+  border: 1px solid green;
+  width: auto;
+  height: auto;
+  font-size: 10px;
+}
+
+
+header .coverall{
+
+}
+
+header .barre{
+  width: 100%;
+}
+
+header .barre form >div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+}
+
+header .barre form input{
+  width: 100%;
+}
+
+  header .coverall .logo{
+padding-top: 40px;
+text-align: center;
+}
+
+.conteneur  header .coverall .logo a{
+  font-size: 10px;
+  font-family: cursive;
+}
+
+.content .bgimage  .milieu{
+  width: 80%;
+  font-size: 10px;
+}
+
+  .milieu .nom h1{
+  font-size: 14px;
+}
+
+/*style dechec connexion*/
+
+
+.conteneur .cover header .coverall .logo{
+  padding-top: 10px;
+}
+
+.conteneur .cover header .coverall .logo a{
+  font-size: 15px;
+}
+
+.conteneur .cover header .coverall  .barre{
+  padding-left: 10%;
+}
+
+.content_pwfg form > div .rond{
+  width: 120px;
+  height: 120px;
+}
+
+.content_pwfg form > div {
+  width: auto;
+}
+
+.content_pwfg form div > input{
+  height: 30px;
+}
+
+.content_pwfg .all .error{
+  width: 100%;
+
+}

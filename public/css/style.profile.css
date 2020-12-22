@@ -1,0 +1,812 @@
+/*- -----------------style du templte T_profile-------------------------*/
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.conteneur{
+  background-color:#ebecf5;
+  width: 100%;
+  height: auto;
+}
+
+
+header{
+  position: fixed;
+  background-color: #4d636f;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .home{
+  width: 10%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .barre{
+  padding-top: 7px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all .5s;
+}
+
+header .barre:hover{
+  background-color: #dadada;
+
+}
+
+header .barre a {
+
+  color: white;
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+
+
+}
+
+.content .part_one{
+  width: 25%;
+  height: auto;
+
+}
+
+.content .part_two{
+  width: 50%;
+  height: auto;
+}
+
+
+.content .part_three{
+  width: 20%;
+  height: auto;
+
+}
+/*------ style de la partie 1-------------------------------------------1*/
+
+.content >div{
+  border-radius: 5px;
+}
+
+.content .part_one {
+display: flex;
+flex-direction: column;
+}
+
+.content .part_one > div{
+  border-radius: 2px;
+}
+
+.content .part_one .myprofil{
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+
+}
+
+.content .part_one .myprofil .picture span{
+      font-size: 15px;
+      font-family: cursive;
+      font-size: 20px;
+      text-transform: capitalize;
+      color: #4d636f ;
+}
+
+.content .part_one .myprofil .picture{
+  text-align: center;
+
+}
+
+.content .part_one .myprofil .picture aside{
+  width: 60%;
+  margin:10px auto;
+}
+
+.content .part_one .myprofil .picture aside img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #ececec;
+}
+
+
+.content .part_one .myprofil .info_user{
+  width: 90%;
+  margin: auto;
+  border-top: 1px solid #ececec;
+  text-transform: capitalize;
+  color:  #4d636f;
+
+}
+
+.content .part_one .myprofil .info_user ul{
+    list-style: none;
+ background-color: #ececec;
+}
+
+.content .part_one .myprofil .info_user ul li{
+  margin-top: 20px;
+  font-family: cursive;
+
+}
+
+.content .part_one .myprofil .info_user ul li img{
+    margin-right: 20px;
+}
+
+
+/*.content .part_one  .groupe{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  background-color: #4d636f;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  padding: 0;
+}*/
+
+.content .part_one  .groupe ul{
+  list-style-type: none;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  width: 100%;
+  background-color: #4d636f;
+}
+
+.content .part_one  .groupe ul li a{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  font-family: verdana;
+  height: 20px;
+
+}
+
+.content .part_one  .groupe li a{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: all .5s;
+
+}
+
+
+.content .part_one  .groupe   li a:hover {
+    background-color: rgb(197, 201, 201);
+    color: white;
+}
+
+
+.content .part_one .divers{
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.content .part_one .divers div{
+  margin-top: 20px;
+
+}
+
+.content .part_one .divers span{
+  background-color: #4d636f; ;
+ margin-left: 20px;
+ text-transform: capitalize;
+  color: white;
+}
+/*-------------style partie 2= style de  la page profil.php  ------------------------*/
+
+  .content .part_two .publication{
+    width: 100%;
+    height: auto;
+  }
+
+  .content .part_two .publication > div{
+    border-radius: 3px;
+  }
+
+.content .part_two .publication .poster{
+   width: 100%;
+   height: auto;
+   font-family: cursive;
+   color:  #4d636f ;
+   background-color:  #ececec;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    }
+
+.content .part_two .publication .poster >div{
+   padding: 15px;
+}
+
+.part_two .publication .poster div  form >  div span{
+
+   margin-bottom: 10px;
+   display: inline-block;
+}
+
+ .part_two .publication .poster div  form > div textarea{
+    width: 95%;
+    height: 50px;
+    resize: none;
+    border: none;
+    font-family: verdana;
+    outline-color: rgb(75, 96, 108);
+    box-shadow: 0px 0px 1px rgb(168, 166, 168);
+}
+
+.part_two .publication .poster div  form > .file_design{
+  display: inline-block;
+   box-shadow: 1px 1px 4px rgb(58, 61, 65);
+   width: 150px;
+   padding: 4px;
+   border-radius: 4px;
+  position: relative;
+   background-color: #ececec;
+   color:  #4d636f ;
+   font-family: cursive;
+   margin-top: 10px;
+   cursor: pointer;
+   transition: all 2s;
+   text-align: center;
+
+}
+
+.part_two .publication .poster div  form > .file_design:hover{
+  background-color:#4d636f ;
+  color: #fff;
+}
+
+.part_two .publication .poster div  form > .file_design input{
+  opacity: 0;
+  display: inline-block;
+  width:100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+
+
+.part_two .publication .poster div  form > div input[type=submit]{
+   border: none;
+   color: #dadada;
+   background-color: #4d636f;
+   padding: 5px;
+   text-transform: capitalize;
+   margin-top: 10px;
+   cursor: pointer;
+   transition: all .5s;
+}
+
+.part_two .publication .poster div  form > div input[type=submit]:hover{
+  background-color: rgb(52, 170, 134);
+}
+
+.content .part_two .publication .aff_pub{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.part_two .publication .aff_pub .info_user{
+  width: 90%;
+  height: 40px;
+  padding: 20px;
+  display: flex;
+  margin: auto;
+  color:  #4d636f ;
+}
+
+.part_two .publication .aff_pub .info_user .picture{
+  width: 60px;
+  height: 60px;
+
+}
+
+ .aff_pub .info_user .picture img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+
+}
+
+.aff_pub .info_user  span{
+  margin-left: 5%;
+  height: 50px;
+  font-size: 19px;
+  text-transform: capitalize;
+  font-family: cursive;
+  padding-top: 10px;
+
+}
+
+.aff_pub .info_user .datepublier{
+  font-size: 10px;
+  color: rgb(138, 137, 145);
+    position: relative;
+    left: 35%;
+    top:-25px;
+}
+.aff_pub  .separe{
+   height: 1px;
+   width: 90%;
+   margin:40px auto;
+   background-color: #ececec;
+}
+
+.aff_pub .publi{
+  width: 90%;
+  margin: auto;
+  height: auto;
+  font-family: verdana;
+  font-size: 14px;
+
+}
+
+.aff_pub .publi .libelle{
+    margin-bottom: 50px;
+}
+
+.aff_pub .publi .pub{
+  width:70%;
+  margin: auto;
+  height:auto;
+ font-family: verdana;
+ word-wrap: break-word;
+}
+
+.aff_pub .publi .pub .lib1{
+  margin-bottom: 20px;
+
+}
+.aff_pub .publi .pub div  {
+  margin: auto;
+  width: 70%;
+}
+
+.aff_pub .bouton{
+  width: 90%;
+  margin:70px auto;
+
+}
+
+.aff_pub .bouton > button{
+  background-color: #4d636f;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: all .5s;
+  margin-bottom: 20px;
+   font-size: 10px;
+   color: red;
+}
+
+.aff_pub .bouton > div {
+  display: inline-block;
+  float: right;
+}
+
+.aff_pub .bouton > div .aa3{
+  background-color: #dadada;
+  box-shadow: 1px 1px 5px #4d636f;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: all .5s;
+  margin-bottom: 20px;
+
+}
+
+.aff_pub .bouton > div .aa3 a{
+  text-decoration: none;
+  color: #4d636f;
+  text-transform: capitalize;
+  font-family: verdana;
+}
+
+
+.aff_pub .bouton > button a{
+  text-decoration: none;
+  color: #dadada;
+  text-transform: capitalize;
+  font-family: verdana;
+}
+
+.aff_pub .bouton > button:hover{
+    background-color: rgb(52, 170, 134);
+}
+
+/*------------- fin style page profil.php-------------------------*/
+
+
+
+/*-------------style partie 3 ------------------------------------------*/
+.content .part_three >div{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+   text-align: center;
+
+}
+
+.content .part_three .bloc1 span{
+   text-transform: capitalize;
+   font-family: cursive;
+   color:#4d636f;
+   display: inline-block;
+   margin-top: 10px;
+
+
+}
+
+.content .part_three .bloc1 .picture{
+  width: 90%;
+  height: 200px;
+  background-image: url('../img/ecran.jpg');
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #dadada;
+  background-size: cover;
+  background-repeat:no-repeat;
+  animation-name: example1;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example1 {
+    0%   {background-image:  url('../img/ecran.jpg'); }
+    25%  {background-image:  url('../img/bg1.jpg');}
+    50%  {background-image: url('../img/bg2.jpg');}
+    100% {background-image: url('../img/espace.jpg');}
+}
+
+
+
+.content .part_three .bloc2 {
+margin-top: 20px;
+}
+
+.content .part_three .bloc1 .bloc{
+ width: 90%;
+ margin: auto;
+ padding: 5px;
+
+}
+
+.content .part_three .bloc1 .info{
+  width: 90%;
+  margin:20px auto;
+}
+
+
+.content .part_three .bloc1 .info a{
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  background-color: #4d636f;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0px ;
+  transition: all 1s;
+}
+
+.part_three .bloc1 .info a:hover{
+  background-color: #80a4b9;
+}
+
+.content .part_three .bloc2{
+ font-family: cursive;
+ color: #4d636f;
+ text-transform: capitalize;
+
+}
+
+.content .part_three .bloc2 .picture img{
+  width: 40%;
+  height: 100px;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+.content .part_three .bloc2 .bouton{
+  margin:20px auto;
+  width: 80%;
+ padding-bottom: 5px;
+}
+
+.content .part_three .bloc2 .bouton > button{
+   background-color:  #4d636f;
+   border: none;
+   padding: 5px 15px;
+   cursor: pointer;
+   color: white;
+   transition: all .5s;
+}
+
+.content .part_three .bloc2 .bouton > button:hover{
+  background-color: rgb(52, 170, 134);
+}
+
+.content .part_three .bloc3{
+margin-top: 20px;
+height: 100px;
+
+}
+
+.content .part_three .bloc3 span{
+position: relative;
+top:40px;
+}
+
+
+.content .part_three .bloc4{
+  margin-top: 20px;
+  height: 100px;
+}
+
+
+.content .part_three .bloc4 span{
+position: relative;
+top:40px;
+}
+
+
+/*-------------------style de la page photo.php----------------------*/
+
+.content_photo{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.content_photo .photo{
+  width: 80%;
+  height: auto;
+  margin:  auto;
+  display: flex;
+  padding: 20px;
+}
+
+.content_photo form  h2{
+  text-transform: capitalize;
+  color: #4d636f;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+.content_photo .photo .avatar1{
+  width: 20%;
+  height: 100px;
+  margin-top: 20px;
+  border: 1px solid rgb(32, 141, 161);
+}
+form{
+
+  margin-left: 50px;
+}
+
+.content_photo .photo form > .file_design{
+   display: inline-block;
+    box-shadow: 1px 1px 4px rgb(58, 61, 65);
+    width: 150px;
+    padding: 4px;
+    border-radius: 4px;
+    position: relative;
+    background-color: #ececec;
+    color: #fff;
+    font-family: verdana;
+    margin-top: px;
+    cursor: pointer;
+}
+
+.content_photo .photo form .file_design input{
+  opacity: 0;
+  display: inline-block;
+  width:100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+
+.content_photo .photo form .bouton_v{
+    width: 150px;
+    margin-top: 20px;
+
+
+}
+
+.content_photo .photo input[type=submit]{
+  width: 100%;
+  font-family: verdana;
+  text-transform: capitalize;
+  background-color:#4d636f;
+  padding: 5px;
+  color: #fff;
+  border: none;
+ cursor: pointer;
+ transition: all 1s;
+}
+
+.content_photo .photo input[type=submit]:hover{
+  background-color: ;
+}
+/*-----------------fin dustyle de la page photo.php----------------------*/
+
+
+
+/*--------------style de la page  commentaire.php----------------------*/
+
+.content_commentaires{
+  width: 100%;
+  height:auto;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  padding-top: 10px ;
+}
+
+.content_commentaires .pub{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.content_commentaires .pub .aff_profil{
+ width: 15%;
+ height: 200px;
+margin-left: 2%;
+margin-right: 15px;
+text-align: center;
+
+}
+
+.content_commentaires .pub .aff_profil > a{
+  text-decoration: none;
+  font-family: cursive;
+  color:#4d636f;
+  font-size: 12px;
+}
+
+.content_commentaires  .pub  .aff_profil > img{
+  border-radius:20%;
+}
+
+.content_commentaires .pub .aff_post{
+  width: 75%;
+  height:auto;
+  box-shadow: 1px 1px 5px rgb(16, 33, 42);
+  padding: 10px;
+}
+
+
+
+
+.content_commentaires .pub .aff_post >div{
+  width: 100%;
+}
+
+
+.content_commentaires .pub .aff_post .cont_post .lib1{
+  font-size: 20px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ height: auto;
+text-align: center;
+word-wrap: break-word;
+  color: rgb(77, 78, 91);
+}
+
+
+.content_commentaires .pub .aff_post .cont_post .photo{
+  text-align: center;
+
+}
+
+
+.content_commentaires .comment{
+
+  width: 65%;
+ margin:20px 23%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.content_commentaires .comment .aa1 textarea{
+  resize: none;
+  width: 95%;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+  font-family: verdana;
+}
+
+.content_commentaires .comment .aa1{
+    width: 70%;
+}
+
+
+.content_commentaires .comment .aa > input[type=submit]{
+   background-color:#4d636f;
+   border: none;
+   cursor: pointer;
+   color: white;
+   padding: 5px;
+   transition: all 1s;
+   text-transform: capitalize;
+   font-family: verdana;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+
+.content_commentaires .comment div > input[type=submit]:hover{
+  background-color: rgb(111, 160, 176);
+}
+
+.content_commentaires .affichage {
+  width: 90%;
+  margin:40px auto;
+  height:550px;
+  overflow: auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.content_commentaires .affichage .aff_com{
+
+}
+
+.content_commentaires .affichage .aff_com img{
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.content_commentaires .affichage .aff_com >.contenu-com{
+ font-family: verdana;
+ font-size: 13px;
+ padding: 10px;
+ width: 50%;
+ text-align: center;
+ margin: auto;
+ background-color:rgb(227, 240, 236);
+  word-wrap: break-word;
+  border-radius: 5px;
+
+}
+
+.content_commentaires .affichage .aff_com .texte{
+  background-color: rgb(218, 244, 234);
+  text-align: justify;
+ padding: 10px;
+ border-radius: 5px;
+}
+
+/*-------------- fin du style de la page  commentaire.php----------------------*/

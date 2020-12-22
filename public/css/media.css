@@ -1,0 +1,35 @@
+.grde_div{
+  height: auto;
+  width: auto;
+  font-size: 10px;
+}
+
+.grde_div  input{
+  height: 20px;
+}
+
+
+.form_inscription {
+  height: auto;
+  width: auto;
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+
+header .logo {
+display: none;
+}
+
+
+.form_inscription{
+font-size: 10px;
+}
+
+.form_inscription .formulaire form > div >div input{
+  height: 20px;
+}
+
+.error{
+  font-size:10px;
+}

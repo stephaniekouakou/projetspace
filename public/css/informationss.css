@@ -1,0 +1,71 @@
+.grde_div{
+
+  padding-top: 50px;
+}
+
+
+.information{
+  width: 40%;
+  margin: auto;
+  border: 1px solid #fff;
+  background-color:#fff;
+  border-radius: 5px;
+}
+
+.information form {
+  width: 80%;
+  margin: auto;
+
+}
+
+.information form legend{
+  border-bottom: 1px  dotted #4d636f;
+ margin-top: 10px;
+  width: 95%;
+  font-size: 15px;
+  font-family: verdana;
+  text-transform: capitalize;
+  color: #4d636f;
+}
+
+.information form fieldset > div{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.information form  fieldset .label{
+    width:80%;
+    text-align: left;
+    margin: auto;
+}
+
+
+.information form  fieldset {
+  margin-top: 20px;
+  border-radius: 10px;
+  color:  #4d636f;
+  font-family: cursive;
+  text-transform: capitalize;
+
+}
+
+
+
+.information form  fieldset > div input,select{
+  width: 80%;
+  height: 30px;
+  font-size: 13px;
+  font-family: verdana;
+}
+
+
+.information form > div input[type=submit]{
+  width: 40%;
+  height: 30px;
+  cursor: pointer;
+  margin:10px auto;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color:#4d636f ;
+}

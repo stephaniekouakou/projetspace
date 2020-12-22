@@ -1,0 +1,402 @@
+/*------------------- style du template T_message.php--------*/
+body{
+  background-color:#ebecf5;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.conteneur{
+
+  width: 100%;
+  height: 100%;
+}
+
+
+header{
+  background-color: #4d636f;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .home{
+  width: 10%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .barre{
+  padding-top: 7px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all .5s;
+}
+
+header .barre:hover{
+  background-color: #dadada;
+
+}
+
+header .barre a {
+
+  color: white;
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+
+}
+
+/*---------------------style de la page discussion.php-------------*/
+.content_discou{
+  width: 100%;
+  height: auto;
+ display: flex;
+ flex-direction: row;
+
+}
+
+.content_discou > section{
+    height: 600px;
+}
+
+.content_discou > .userligne{
+  flex: 1;
+  height: auto;
+  box-shadow: 4px 4px 8px #dadada;
+  padding: 15px 5px;
+  background-image: url('../img/bg.jpg');
+}
+
+.content_discou > .userligne .cover{
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    width: 95%;
+    margin: auto;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.content_discou > .userligne .cover .panel-heading{
+  width: 100%;
+  text-align: center;
+  color: #dadada;
+  border-radius: 5px;
+  background-color:#4d636f;
+}
+.content_discou > .userligne .cover .list-group {
+
+}
+
+.content_discou > .userligne .cover .list-group a{
+  box-shadow: 0px 0px 2px rgb(162, 152, 66);
+  width: 98%;
+  margin: auto;
+  display: block;
+  text-decoration: none;
+  color: #4d636f;
+  font-family: cursive;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 5px;
+   word-spacing: 10px;
+   transition: all .5s;
+}
+
+.content_discou > .userligne .cover .list-group a:hover{
+  background-color:#ebecf5;
+}
+
+ .userligne .cover .list-group a  .box-online{
+   background-color: rgba(72, 158, 62, 0.94);
+   color: #fff;
+   font-size: 13px;
+  word-spacing: normal;
+ }
+
+  .userligne .cover .list-group a .bulle{
+    color: #fff;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+.content_discou > .msg_user{
+  flex: 3;
+}
+
+.content_discou > .msg_user .cover{
+  width: 80%;
+  margin: auto;
+    height: 580px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.content_discou > .msg_user .cover .panel-heading{
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #dadada;
+  background-color:#4d636f;
+}
+
+.content_discou > .msg_user .cover .panel-body{
+  width: 100%;
+  height: 450px;
+//  position: absolute;
+  overflow: auto;
+}
+
+.content_discou > .msg_user .cover .envoimsg{
+  width: 100%;
+  height: 88px;
+  text-align: center;
+  background-image: url('../img/bg.jpg');
+  position: relative;
+  //top:451px;
+}
+
+.msg_user .cover .envoimsg form{
+  display: flex;
+}
+
+.msg_user .cover .envoimsg form input{
+  height: 30px;
+  width: 80px;
+  margin-top: 5px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #4d636f;
+  transition: all 3s;
+}
+
+.msg_user .cover .envoimsg form input:hover{
+  background-color: rgb(238, 83, 62);
+}
+
+.msg_user .cover .envoimsg form textarea{
+  width: 80%;
+  margin: auto;
+  border-radius: 8px;
+  outline: none;
+  resize: none;
+  text-indent: 10px;
+}
+
+.content_discou > .msg_user .cover .envoimsg form > div{
+   margin-top: 20px;
+  margin-left: 50px;
+}
+
+.msgbox{
+    background: #b5e6ca;
+    border-radius: 10px;
+    bottom: 1px solid #34495e;
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    float: left;
+    position: relative;
+    top: 10px;
+    box-shadow: 2px 2px 5px #7f8c8d;
+    word-wrap: break-word;
+}
+.imgmsg{
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.msgbox2{
+    background: #fbcba1;
+    border-radius: 10px;
+    bottom: 1px solid #34495e;
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    float: right;
+    position: relative;
+    top: 10px;
+    box-shadow: 2px 2px 5px #7f8c8d;
+    word-wrap: break-word;
+}
+.imgmsg2{
+    width: 70px;
+    height: 70px;
+    float: right;
+}
+/*-------------------fin du style  de la page discussion.php--------*/
+
+
+
+/*------------------- style  de la page lecturemsg.php--------*/
+.error{
+  width: 50%;
+  height: 50px;
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+  margin:20px auto;
+  background-color:#fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  color: rgb(210, 127, 67);
+}
+
+.content_lecture{
+  width: 70%;
+  height: auto;
+  margin:  auto;
+  margin-top: 50px;
+ display: flex;
+ flex-direction: column;
+ padding: 20px;
+   background-color: #fff;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.content_lecture >div{
+  //border: 1px solid black;
+  height: auto;
+  width: 100%;
+}
+
+.content_lecture  .destinataire {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction:row;
+
+}
+
+.content_lecture  .destinataire .bloc_tof{
+    text-transform: capitalize;
+  font-family: cursive;
+  font-size: 13px;
+ width: 20%;
+ height: 150px;
+ border-radius: 5px;
+ margin-right: 10%;
+ color:#fff;
+ text-align: center;
+ background-color:  #4d636f;
+}
+
+.content_lecture  .destinataire .bloc_tof img{
+
+  margin-top: -20px;
+}
+
+.content_lecture  .destinataire .bloc_tof::before{
+  content: "";
+  display: block;
+  position: relative;
+  left: 100%;
+  top: 40%;
+  border: 20px solid ;
+  border-color: transparent   transparent  transparent #4d636f;
+  border-color: ;
+}
+
+.content_lecture  .destinataire .bloc_msg{
+ width: 40%;
+ margin-top: 20px;
+ height: auto;
+}
+
+.content_lecture  .destinataire .bloc_msg textarea{
+  font-size:12px;
+  font-family: verdana;
+  color: #4d636f;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  text-indent: 20px;
+  padding:20px 0px;
+  resize: none;
+  outline: none;
+}
+
+
+.content_lecture .message {
+
+  color: rgb(116, 148, 145);
+  font-family: verdana;
+  font-size: 15px;
+
+}
+
+.content_lecture .message > .design{
+  font-size: 5px;
+  text-align: center;
+  width: 40%;
+  height: 3px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: #4d636f;
+}
+
+.content_lecture .repondre{
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.content_lecture .repondre textarea{
+  width: 30%;
+  height: auto;
+  resize: none;
+  outline: none;
+  text-indent: 20px;
+  border-radius: 10px;
+  font-size:12px;
+  font-family: verdana;
+  color: #4d636f;
+}
+
+
+.content_lecture .repondre  .validation{
+  margin-top: 20px;
+
+}
+
+
+.content_lecture .repondre  .validation input{
+  text-transform: capitalize;
+  font-family: verdana;
+  height: 30px;
+  width: 10%;
+  color:#fff;
+  border: none;
+  cursor: pointer;
+  background-color:#4d636f;
+}
+
+.content_lecture .repondre  .validation button{
+  height: 30px;
+  border: none;
+  margin-left: 20px;
+  background-color:rgba(238, 76, 25, 0.8);
+  transition: all 3s;
+}
+
+.content_lecture .repondre  .validation button:hover{
+  background-color: rgba(108, 26, 8, 0.85);
+}
+
+.content_lecture .repondre  .validation button a{
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: verdana;
+  padding: 40px;
+  color:#fff;
+}
+/*------------------- fin du style de la page lecturemsg.php--------*/

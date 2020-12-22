@@ -1,0 +1,254 @@
+/*---------------style de la page  message.php--------------------*/
+.content .part_two .content_message{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.content_message .entete .msg{
+ width: 90%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin: auto;
+  position: relative;
+  top:10px;
+  border-radius: 10px;
+
+}
+
+.content_message .entete .msg button{
+  margin-left: 40%;
+  background-color:  #4d636f;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  transition: all 1s;
+}
+
+.content_message .entete .msg button:hover{
+
+  background-color: rgb(149, 201, 190);
+}
+
+.content_message .entete .msg button a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: verdana;
+
+}
+
+
+.content_message .entete p{
+    display: flex;
+}
+
+.content_message .entete p > span{
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px;
+  color: rgb(149, 201, 190);
+
+}
+
+.content_message .entete p > .one{
+ width: 20%;
+}
+
+.content_message .entete p > .two{
+  width: 60%;
+}
+
+.content_message .entete p > .three{
+  width: 20%;
+}
+
+.content .part_two .content_message .content_M >div{
+  margin-top: 10px;
+
+}
+.content .part_two .content_message .content_M .message_content{
+
+  display: flex;
+
+}
+
+
+.content .part_two .content_message  .content_M .message_content>div{
+box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  color:  #4d636f;
+  background-color:rgb(215, 232, 230);
+
+}
+
+.content .part_two .content_message  .content_M .message_content>div a{
+  text-transform: capitalize;
+  text-decoration: none;
+  color:rgb(175, 68, 45);
+  transition: all 1s;
+  font-size: 18px;
+
+}
+
+.content .part_two .content_message  .content_M .message_content>div a:hover{
+  color:green;
+
+}
+
+.content .part_two .content_message  .content_M .infomsg{
+  width: 40%;
+  margin: auto;
+  border-radius: 5px;
+  color:rgb(198, 41, 13);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(215, 232, 230);
+
+
+}
+
+
+ .content_message .content_M .message_content> .destinateur{
+  text-transform: capitalize;
+  text-indent: 20px;
+  width: 20%;
+  height: ;
+ }
+
+
+ .content_message .content_M .message_content> .message{
+   width: 60%;
+    height: auto;
+   text-indent: inherit;
+   word-wrap: break-word;
+ }
+
+
+
+ .content_message .content_M> .heur{
+   width: 20%;
+    height: auto;
+
+ }
+
+/*---------- fin du  style de la page message.php--------------------*/
+
+
+
+/*---------------style de la page new message--------------------*/
+
+ .content_newmsg{
+   width: 100%;
+   height: auto;
+   background-color: #fff;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+ }
+
+
+.content_newmsg .boitemsg{
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.content_newmsg .boitemsg .contenu{
+  border: 1px solid #4d636f;
+}
+
+.content_newmsg .boitemsg .contenu span{
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: verdana;
+  font-size: 20px;
+  padding: 5px;
+  background-color:#4d636f;
+}
+
+
+.content_newmsg .boitemsg .contenu form{
+  padding: 10px;
+}
+
+.content_newmsg .boitemsg .contenu form > div{
+  margin-top: 50px;
+}
+
+.content_newmsg .boitemsg .contenu form > div label{
+  font-family: verdana;
+  font-size: 15px;
+
+  text-transform: capitalize;
+}
+
+.content_newmsg .boitemsg .contenu form div> input[type=text]{
+  width: 80%;
+  height: 40px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.content_newmsg .boitemsg .contenu form div> input[type=text]:focus{
+  box-shadow: 0px 0px 5px rgb(149, 201, 190);
+}
+
+.content_newmsg .boitemsg .contenu form div> select{
+  width: 80%;
+  height: 45px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.content_newmsg .boitemsg .contenu form div> select:focus{
+    box-shadow: 0px 0px 5px rgb(149, 201, 190);
+}
+
+.content_newmsg .boitemsg .contenu form div> textarea{
+  margin-left: 15%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.content_newmsg .boitemsg .contenu form div> textarea:focus{
+  box-shadow: 0px 0px 5px rgb(149, 201, 190);
+}
+
+.content_newmsg .boitemsg .contenu form .valider{
+  width: 50%;
+  margin: 20px auto;
+
+}
+
+.content_newmsg .boitemsg .contenu form .valider > input{
+   border: none;
+   background-color:  #4d636f;
+   color: #fff;
+   padding: 5px;
+   width: 40%;
+   font-family: verdana;
+   text-transform: capitalize;
+   cursor: pointer;
+   transition: all 1s;
+}
+
+.content_newmsg .boitemsg .contenu form .valider > input:hover{
+   background-color: rgb(182, 90, 61);
+}
+
+.content_newmsg .boitemsg .contenu form .valider > input[type=submit]{
+  margin-right: 15%;
+}
+
+/*---------------fin du  style de la page new message--------------------*/

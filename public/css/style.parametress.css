@@ -1,0 +1,528 @@
+body{
+  margin: 0;
+  padding: 0;
+background-color: #ebecf5;
+}
+
+@media sreen  and (min-whidth:100px) {
+   .conteneur{
+    width: auto;
+      background-color:red;}
+}
+
+.conteneur{
+
+  width: 100%;
+  height: auto;
+
+}
+
+
+header{
+  position: fixed;
+  background-color: #4d636f;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .home{
+  width: 5%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+header .barre{
+  padding-top: 7px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all .5s;
+}
+
+header .barre:hover{
+  background-color: #dadada;
+
+}
+
+header .barre a {
+
+  color: white;
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+
+}
+
+#content{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+justify-content: space-between;
+}
+
+
+
+#content .part-one{
+  width: 20%;
+  height:520px;
+  margin-left: 10px;
+  background-color:  #4d636f;
+
+
+}
+
+#content .part-one .header{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 5px #dadada;
+}
+
+#content .part-one .header h4{
+  text-align: center;
+  padding: 5px;
+color: #fff;
+ margin-top: -1px;
+ font-size: 20px;
+ font-family:  serif;
+ font-weight: none;
+ text-transform: uppercase;
+}
+
+#content .part-one .body_part1 ul li{
+   list-style-image:url('../img/fleche.png');
+   margin-left: -10px;
+   margin-top: 20px;
+}
+
+#content .part-one .body_part1 ul li a{
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px .5px rgb(10, 11, 11);
+  text-decoration: none;
+  font-family: cursive;
+  text-transform: capitalize;
+  color: #dadada;
+  display: block;
+  padding: 16px 16px;
+  transition: all .5s;
+}
+
+#content .part-one .body_part1 ul li a:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 5px rgb(10, 11, 11);
+}
+
+#content .part-two{
+ width: 50%;
+ height: auto;
+  background-color:#fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#content .part-three{
+  width: 20%;
+    height: 500px;
+  margin-right: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+#content .part-three > section{
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 12px;
+}
+
+#content .part-three > .one .avatar{
+  width: 50%;
+  height: 100px;
+  margin:10px auto;
+  border: 1px solid red;
+
+}
+
+#content .part-three > .one span{
+  text-transform: capitalize;
+  color: rgb(219, 78, 64);
+  font-family: cursive;
+}
+
+#content .part-three > .two span{
+  display: block;
+  text-align: justify;
+  color: #4d636f;
+  font-family:verdana;
+    text-transform: capitalize;
+    margin-top: 10px;
+    text-indent: 10px;
+
+}
+
+#content .part-three > .three span{
+  display: block;
+  text-align: justify;
+  color: #4d636f;
+  font-family: verdana;
+    text-transform: capitalize;
+    margin-top: 10px;
+text-indent: 10px;
+}
+
+#content .part-two #parametre{
+  background-image: url('../img/espace.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 60%;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+
+}
+
+
+/*style de la page modifpass.php*/
+#content .part-two #modif-password{
+  width: 80%;
+  margin:20px auto;
+
+}
+
+
+.part-two #modif-password form fieldset{
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+     margin-top: 50px;
+     padding: 30px;
+     border-color: #dadada;
+}
+
+
+.part-two #modif-password form  fieldset legend{
+display: block;
+margin-top: -20px;
+font-family: cursive;
+  color:  #4d636f;
+  font-family: 10px;
+}
+
+
+.part-two #modif-password form label{
+  color: #4d636f;
+  font-size: 13px;
+  font-family: cursive;
+
+}
+
+
+
+.part-two #modif-password form input{
+  width: 90%;
+  height: 30px;
+  outline: none;
+  padding-left: 20px;
+  border: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.part-two #modif-password form input:focus{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.part-two #modif-password form input[type=submit]{
+  width: 20%;
+  margin-left: 65%;
+  margin-top: 20px;
+  border: none;
+  font-family: cursive;
+  background-color: #4d636f;
+  color: #fff;
+  transition: all 1s ;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+
+.part-two #modif-password form input[type=submit]:hover{
+  background-color: rgb(146, 190, 162);
+}
+
+/*style de la page infoperonnel*/
+
+.part-two #infopersonnel{
+  width: 75%;
+  margin: 20px auto;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #4d636f;
+}
+
+.part-two #infopersonnel form{
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 10px;
+}
+
+.part-two #infopersonnel form input{
+  width: 85%;
+  height: 35px;
+  border: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+ outline: none;
+  text-indent: 20px;
+ font-family: verdana;
+}
+
+.part-two #infopersonnel form select{
+  width: 85%;
+  height: 35px;
+  border: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+ outline: none;
+  text-indent: 20px;
+ font-family: verdana;
+}
+
+
+.part-two #infopersonnel form input:focus{
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.part-two #infopersonnel form > div{
+  margin-top: 15px;
+  padding-left: 65px;
+}
+
+.part-two #infopersonnel form label{
+  font-family: cursive;
+  color:  #fff;
+}
+
+.part-two #infopersonnel form input[type=submit]{
+  width: 25%;
+  background-color:rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+  margin-left: 10%;
+  margin-bottom: 5px;
+  font-family: cursive;
+  color: #fff ;
+  cursor: pointer;
+  transition: background-color 2s;
+}
+
+.part-two #infopersonnel form input[type=submit]:hover{
+    background-color: #4d636f;
+}
+
+
+/*style de la page ajouterinfo*/
+
+.part-two #ajouterinfo{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 40px;
+
+}
+
+.part-two #ajouterinfo > div{
+
+  background-color: #4d636f;
+  padding: 10px ;
+}
+
+.part-two #ajouterinfo > div form{
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.part-two #ajouterinfo .in{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.part-two #ajouterinfo .in >div{
+  width: 70%;
+  text-align: left;
+  margin: auto;
+  text-transform: capitalize;
+  font-family: cursive;
+  color: #fff;
+}
+
+.part-two #ajouterinfo .in input{
+  height: 30px;
+  width: 70%;
+  outline: none;
+  border: none;
+  text-indent: 20px;
+  font-family: verdana;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  transition: all 1s;
+}
+
+
+.part-two #ajouterinfo .valider{
+  width: 20%;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+.part-two #ajouterinfo .valider input{
+border: none;
+font-family: cursive;
+background-color: rgba(0, 0, 0, 0.5);
+color: #fff;
+padding: 10px;
+width: 100% ;
+cursor: pointer;
+}
+/*style de la page notification*/
+.part-two #notification{
+  width: 95%;
+  margin: auto;
+
+}
+
+.part-two #notification h1{
+  width: 50%;
+  margin:10px auto;
+  background-color:  #ebecf5;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  font-family: cursive;
+  font-size: 20px;
+  color: #4d636f;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.part-two #notification .content{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.part-two #notification .content .nomprof{
+  width: 30%;
+  height:50px;
+  margin-right: 10%;
+  background-color:#4d636f;
+ text-align: center;
+
+}
+
+.part-two #notification .content .nomprof span{
+  color:#fff;
+  font-family: cursive;
+  font-size: 15px;
+  margin-top: -10px;
+  display: block;
+  word-wrap: break-word;
+
+}
+
+
+#notification .content .nomprof::before{
+    content: "";
+    display: block;
+    position: relative;
+    left: 100%;
+    top: 20%;
+    border: 10px solid ;
+    border-color: transparent   transparent  transparent #4d636f;
+
+}
+
+.part-two #notification .content .contenue{
+  width: 60%;
+  height: 100px;
+  font-family: verdana;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: normal;
+  border-radius: 5px;
+  overflow: auto;
+  background-color:  #ebecf5;
+  word-wrap: break-word;
+}
+
+.part-two #notification .content .contenue .datenotifi{
+  font-family: verdana;
+  display: block;
+  width: 50%;
+  position: relative;
+  left: 40%;
+  color: rgb(128, 130, 135);
+}
+
+
+.part-two #notification .content .contenue .msg{
+  font-family: cursive;
+  text-indent: 20px;
+  font-size: 14px;
+  display: block;
+  word-wrap: break-word;
+}
+
+/*style de la page evernement*/
+
+.part-two #evernement{
+  width: 90%;
+  margin: auto;
+}
+
+.part-two #evernement h1{
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  margin: 20px auto;
+  font-size: 22px;
+  background-color: #ebecf5;
+  color: #4d636f;
+  text-align: center;
+  font-family: cursive;
+}
+
+.part-two #evernement .contenu{
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  word-wrap: break-word;
+  overflow: auto;
+  background-color:#ebecf5;
+}
+
+
+#evernement .contenu .datep{
+  position: relative;
+  left: 50%;
+  text-transform: capitalize;
+  font-family: cursive;
+  color: #4d636f;
+  font-size: 12px;
+  font-family: verdana;
+
+}
+
+
+.part-two #evernement .contenu .msg{
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  font-family: verdana;
+  font-size: 14px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+
+.part-two #evernement .contenu .image{
+  text-align: center;
+  width: 70%;
+  height: 220px;
+  margin: auto;
+}
